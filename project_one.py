@@ -27,8 +27,8 @@ print(tip)
 if tip == "yes":
     tip_amt = float(input("How much would you like to tip?"))
     print(meal_tax+tip_amt)
-elif tip == "no":
-    print(f"{meal_tax+tip_amt}")
+else:
+    print(meal_tax)
 
 # input taken from customer on how many ways to split the bill
 # use this equation to calulate the meal_price/bill_split
